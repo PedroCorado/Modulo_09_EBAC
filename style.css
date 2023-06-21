@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+h1{
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+}
+
+body{
+    background-color: #F5F5F7;
+}
+
+#tarefa{
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+}
+
+#botao{
+    height: 40px;
+    width: 120px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#tarefa::placeholder{
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#resposta {
+    font-size: 30px;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+}
+
+.clicked {
+    text-decoration: line-through;
+}
